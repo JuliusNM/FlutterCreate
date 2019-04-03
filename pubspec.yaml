@@ -1,0 +1,37 @@
+name: wowsy
+version: 1.0.0+1
+description: >-
+  Have you been ever wondered the meaning of certain numbers? Or interesting dates in history?
+  This app is for you. Wowsy provides mathematical and trial answers to numbers and dates.
+author: Julius Ngigi Mburu <juliusngigim@gmail.com>
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0
+  datetime_picker_formfield: ^0.1.7
+  numberpicker: ^0.1.7
+  flutter_datetime_picker: ^0.1.0
+  vertical_tabs: ^0.1.4
+  fancy_bottom_navigation: ^0.3.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  fonts:
+  - family: Quicksand
+    fonts:
+    - asset: fonts/Quicksand-Bold.ttf
+    - asset: fonts/Quicksand-Light.ttf
+    - asset: fonts/Quicksand-Medium.ttf
+    - asset: fonts/Quicksand-Regular.ttf
+
